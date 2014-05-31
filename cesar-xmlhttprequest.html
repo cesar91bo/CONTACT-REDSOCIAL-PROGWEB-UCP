@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function loadXMLDoc()
+{
+var objeto_xmlhttp;
+if (window.XMLHttpRequest)
+  {
+  objeto_xmlhttp=new XMLHttpRequest();
+  }
+else
+  {
+  objeto_xmlhttp=new ActiveXObject("Microsoft.objeto_xmlhttp");
+  }
+//xmlhttp.onreadystatechange=function()
+  {
+  if (objeto_xmlhttp.readyState==4 && objeto_xmlhttp.status==200)
+    {
+    eval (objeto_xmlhttp.readyState)
+    }
+	return objeto_xmlhttp.readyState;
+  }
+objeto_xmlhttp.open("GET","http://weather.yahooapis.com/forecastrss?w=91863141&u=c",true);
+objeto_xmlhttp.send(null);
+}
+</script>
+</head>
+<body>
+
+<h2>AJAX</h2>
+<button type="button" onclick="loadXMLDoc()">datos</button>
+<div id="myDiv" name="myDiv"></div>
+ 
+</body>
+</html>
