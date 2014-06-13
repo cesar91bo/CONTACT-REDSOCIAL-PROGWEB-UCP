@@ -1,0 +1,58 @@
+body{
+ float: right;
+ 
+}
+
+.moverImagenPerfil {
+width:920px;
+ height:920px;
+}
+.muro{
+width:400px;
+}
+.muro-item{
+	margin-bottom:20px;
+}
+.muro-item-img{
+	width:50px;
+	height:50px; 
+	float:left;
+	margin-right:8px;
+}
+.muro-item-contenedor{
+	margin-left:55px;
+}
+.muro-item-nombre{
+	font-weight:bold;
+	text-decoration:underline;
+	color: #00008B;
+	
+}
+
+.muro-item-fecha{
+	font-size:0.8em;
+	color:#D2691E;
+}
+
+
+
+.respuestas{}
+
+.respuestas .muro-item{
+	background-color:#ADD8E6;
+	margin-left:55px;
+}
+
+.respuestas .muro-item .muro-item-img{
+	width:25px;
+	height:25px; 
+}
+.respuestas .muro-item .muro-item-contenedor{
+	margin-left:28px;
+}
+
+.respuestas .muro-item  .muro-item-nombre{
+	text-decoration:none;
+}
+
+

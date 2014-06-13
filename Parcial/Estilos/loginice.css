@@ -1,0 +1,29 @@
+body{
+ margin-left:0px;
+ margin-top:0px;
+ font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+color:#A9C4C5;
+
+ }
+
+.fondo{
+	background-color:#1EB942;
+
+}
+.fondo-icono{
+    width:50px;
+	height:50px; 
+	float:right;
+	margin-right:8px;
+}
+
+.encabezadoLogin{
+	height:100px;
+	
+	
+}
+.encabezadoLogin table{
+	float:right;
+	margin-right:200px;
+	
+}
